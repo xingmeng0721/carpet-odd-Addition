@@ -50,6 +50,7 @@ public abstract class CactusOxidizeCopperMixin {
         if (!(state.getBlock() instanceof WeatheringCopper copper)) return;
 
         Optional<BlockState> next = copper.getNext(state);
+        if (next.isEmpty()) return;
 
         BlockState newState = next.get();
 

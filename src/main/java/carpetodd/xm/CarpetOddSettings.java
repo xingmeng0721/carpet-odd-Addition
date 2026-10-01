@@ -25,4 +25,10 @@ public class CarpetOddSettings {
 
     @Rule(categories = {ODD})
     public static boolean playerInventoryStack = false;
+
+    @Rule(categories = {ODD})
+    public static boolean villagerBedUnbind = false;
+
+    @Rule(categories = {ODD})
+    public static boolean villagerPanicSpawnGolem = false;
 }

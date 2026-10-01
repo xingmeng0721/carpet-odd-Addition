@@ -5,6 +5,7 @@ import carpet.CarpetServer;
 import carpetodd.xm.command.AutoDropCommand;
 import carpetodd.xm.command.BatchPlayerCommand;
 import carpetodd.xm.command.CustomItemMaxStackSizeCommand;
+import carpetodd.xm.command.VillagerCommand;
 import carpetodd.xm.manager.CustomItemMaxStackSizeDataManager;
 import carpet.helpers.EntityPlayerActionPack.ActionType;
 import com.google.gson.Gson;
@@ -129,6 +130,13 @@ public class CarpetOddExtension implements CarpetExtension {
                                                         // stop
                                                         .then(Commands.literal("stop")
                                                                 .executes(BatchPlayerCommand::batchStop)))))));
+
+        // /villager unbindBed <distance>
+        dispatcher.register(
+                Commands.literal("villager")
+                        .then(Commands.literal("unbindBed")
+                                .then(Commands.argument("distance", IntegerArgumentType.integer(1))
+                                        .executes(VillagerCommand::unbindBed))));
     }
 
     @Override

@@ -14,7 +14,8 @@
     "customItemMaxStackSize.SlotMixin",
     "customItemMaxStackSize.AbstractContainerMenuMixin",
     "customItemMaxStackSize.PlayerDropMixin",
-    "customItemMaxStackSize.LivingEntityDropMixin"
+    "customItemMaxStackSize.LivingEntityDropMixin",
+    "villagerPanicSpawnGolem.VillagerPanicSpawnGolemMixin"
   ],
   "client": [
     "client.ItemStackMaxStackSizeMixin",

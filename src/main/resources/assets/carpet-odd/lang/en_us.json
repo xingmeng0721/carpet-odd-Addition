@@ -24,6 +24,12 @@
 "carpetodd.command.playerInventoryStack.cleared": "Cleared all inventory stack rules",
 "carpetodd.command.playerInventoryStack.empty": "No inventory stack rules are currently set",
 "carpetodd.command.playerInventoryStack.invalid": "Invalid item predicate: %s",
-"carpetodd.command.playerInventoryStack.filled_shulker_box": "Filled Shulker Box: a shulker box where all 27 slots are filled to the vanilla maximum stack size of their respective items"
+"carpetodd.command.playerInventoryStack.filled_shulker_box": "Filled Shulker Box: a shulker box where all 27 slots are filled to the vanilla maximum stack size of their respective items",
+
+"carpet.rule.villagerBedUnbind.name": "Villager Bed Unbind",
+"carpet.rule.villagerBedUnbind.desc": "Enables /villager unbindBed <distance>, which releases the beds bound by villagers within the given distance of the executor so they can find and bind a new bed.",
+
+"carpet.rule.villagerPanicSpawnGolem.name": "Villager Panic Spawns Iron Golem",
+"carpet.rule.villagerPanicSpawnGolem.desc": "Panicked villagers can spawn iron golems without having slept recently (vanilla villager count requirements still apply)."
 }
 

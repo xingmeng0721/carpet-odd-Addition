@@ -24,5 +24,11 @@
   "carpetodd.command.playerInventoryStack.cleared": "已清除所有背包堆叠规则",
   "carpetodd.command.playerInventoryStack.empty": "当前没有背包堆叠规则",
   "carpetodd.command.playerInventoryStack.invalid": "无效的物品谓词: %s",
-  "carpetodd.command.playerInventoryStack.filled_shulker_box": "已满潜影盒: 27个槽位均达到各自物品原版最大堆叠数量的潜影盒"
+  "carpetodd.command.playerInventoryStack.filled_shulker_box": "已满潜影盒: 27个槽位均达到各自物品原版最大堆叠数量的潜影盒",
+
+  "carpet.rule.villagerBedUnbind.name": "村民床解绑",
+  "carpet.rule.villagerBedUnbind.desc": "启用 /villager unbindBed <距离> 命令, 解绑执行者附近指定距离内村民绑定的床, 使村民重新寻找并绑定床",
+
+  "carpet.rule.villagerPanicSpawnGolem.name": "村民恐慌生成铁傀儡",
+  "carpet.rule.villagerPanicSpawnGolem.desc": "村民处于恐慌状态时, 无需近期睡眠也能生成铁傀儡（仍需原版数量的恐慌/已睡眠村民聚集）"
 }

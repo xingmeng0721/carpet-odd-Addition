@@ -399,8 +399,8 @@ public class BatchPlayerCommand {
             ServerPlayer player = getFakePlayer(server, prefix, i);
             if (player == null) continue;
             EntityPlayerActionPack ap = ((ServerPlayerInterface) player).getActionPack();
-            ap.mount(false);
-            count++;
+            ap.mount(true);
+            if (player.isPassenger()) count++;
         }
 
         Messenger.m(source, "g Mounted " + count + " player(s)");
